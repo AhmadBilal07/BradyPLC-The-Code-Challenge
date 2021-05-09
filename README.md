@@ -14,9 +14,9 @@ The output should be a single XML file in the format as specified by an example 
 
  
 ### Calculation Definitions and Reference Data
-Daily Generation Value = Energy x Price x ValueFactor \n
-Daily Emissions = Energy x EmissionRating x EmissionFactor \n
-Actual Heat Rate = TotalHeatInput / ActualNetGeneration \n
+Daily Generation Value = Energy x Price x ValueFactor <br />
+Daily Emissions = Energy x EmissionRating x EmissionFactor <br />
+Actual Heat Rate = TotalHeatInput / ActualNetGeneration <br />
 
 ### Note
 Emissions only apply to fossil fuel generator types e.g. coal and gas. There could be a varying number of generators of a given type in any one GenerationReport.xml file that is produced.
