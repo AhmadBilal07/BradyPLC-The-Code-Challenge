@@ -1,6 +1,9 @@
 # BradyPLC-The-Code-Challenge
 The Code Challenge is a part of the Brady recruitment process.
 
+## Code Setup
+To run the program the paths need to be updated in `App.config`.
+
 ## Description of the Task
 A production ready solution (Console Application) written in C#
 
