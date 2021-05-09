@@ -1,7 +1,7 @@
 # BradyPLC-The-Code-Challenge
 The Code Challenge is a part of the Brady recruitment process.
 
-##Description of the Task
+## Description of the Task
 A production ready solution (Console Application) written in C#
 
 An XML file contains generator data (see accompanying file GenerationReport.xml) is produced and provided as input into an input folder on a regular basis. 
@@ -13,7 +13,7 @@ The solution automatically pick up the received XML file as soon as it is placed
 The output should be a single XML file in the format as specified by an example accompanying file GenerationOutput.xml into an output folder (location of output folder is set in the Application app.config file).  
 
  
-###Calculation Definitions and Reference Data
+### Calculation Definitions and Reference Data
 Daily Generation Value = Energy x Price x ValueFactor\n
 Daily Emissions = Energy x EmissionRating x EmissionFactor\n
 Actual Heat Rate = TotalHeatInput / ActualNetGeneration\n
