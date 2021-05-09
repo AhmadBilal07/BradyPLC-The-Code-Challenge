@@ -53,8 +53,8 @@ namespace BradyPLC_Test_Assignment
         // Method to Get Emission or Value Factor from XML
         public decimal GetFactor(string factorType, string factorLevel)
         {
-            string path1 = ConfigurationManager.AppSettings["ReferenceData"];
-            XElement referenceData = XElement.Load(path1);
+            string referenceXMLPath = ConfigurationManager.AppSettings["ReferenceData"];
+            XElement referenceData = XElement.Load(referenceXMLPath);
             decimal valueTemp;
             var result = referenceData.Descendants(factorType).Elements(factorLevel).First().Value;
             valueTemp = Convert.ToDecimal(result);
